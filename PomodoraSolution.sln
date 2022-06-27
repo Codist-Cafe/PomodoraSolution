@@ -3,9 +3,30 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "apps", "apps", "{51019137-2FFB-4DF7-9F58-53DD4656506E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{C92C8360-7D7C-4FE6-A8A4-06C226A732A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6BDF106E-1369-4ABD-A47E-C4487E388011}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pomodora.ConsoleApp", "apps\Pomodora.ConsoleApp\Pomodora.ConsoleApp.csproj", "{BBCB9213-1961-46E2-9F0B-EE0DD3AED80F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBCB9213-1961-46E2-9F0B-EE0DD3AED80F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBCB9213-1961-46E2-9F0B-EE0DD3AED80F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBCB9213-1961-46E2-9F0B-EE0DD3AED80F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBCB9213-1961-46E2-9F0B-EE0DD3AED80F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BBCB9213-1961-46E2-9F0B-EE0DD3AED80F} = {51019137-2FFB-4DF7-9F58-53DD4656506E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B6B77644-AD11-421A-B267-0876F1A0E49D}
